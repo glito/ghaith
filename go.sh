@@ -43,7 +43,7 @@ START_TIME=$SECONDS
 } |whiptail --title "Please wait LOADING ..." --gauge "LOADING" 6 60 0
 
 
-whiptail --title " Welcome $USERNAME to setup of ghaith server " --checklist --separate-output --notags  "Choose:" 20 78 15 \
+whiptail --title " Welcome $USERNAME to setup server " --checklist --separate-output --notags  "Choose:" 20 78 15 \
 "update" "do update  " off \
 "upgrade" "do upgrade  " off \
 "root_password" "root password  " off \
